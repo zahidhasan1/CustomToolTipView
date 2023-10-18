@@ -13,6 +13,15 @@
 		C0DF26912ADFF9A200C28A0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DF268F2ADFF9A200C28A0C /* Main.storyboard */; };
 		C0DF26932ADFF9A400C28A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0DF26922ADFF9A400C28A0C /* Assets.xcassets */; };
 		C0DF26962ADFF9A400C28A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DF26942ADFF9A400C28A0C /* LaunchScreen.storyboard */; };
+		C0DF269E2AE0008800C28A0C /* SnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF269D2AE0008700C28A0C /* SnapshotView.swift */; };
+		C0DF26A12AE0059C00C28A0C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26A02AE0059C00C28A0C /* UIView+Extension.swift */; };
+		C0DF26A32AE00BD800C28A0C /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26A22AE00BD700C28A0C /* DarkView.swift */; };
+		C0DF26A52AE0112200C28A0C /* TooltipManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26A42AE0112200C28A0C /* TooltipManager.swift */; };
+		C0DF26A72AE0118F00C28A0C /* TooltipDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26A62AE0118F00C28A0C /* TooltipDirection.swift */; };
+		C0DF26A92AE0148A00C28A0C /* TooltipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DF26A82AE0148A00C28A0C /* TooltipView.xib */; };
+		C0DF26AB2AE014A100C28A0C /* TooltipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26AA2AE014A100C28A0C /* TooltipView.swift */; };
+		C0DF26AD2AE0189300C28A0C /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26AC2AE0189300C28A0C /* TriangleView.swift */; };
+		C0DF26AF2AE018FC00C28A0C /* ViewControllerTooltip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DF26AE2AE018FC00C28A0C /* ViewControllerTooltip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C0DF26922ADFF9A400C28A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0DF26952ADFF9A400C28A0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0DF26972ADFF9A400C28A0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DF269D2AE0008700C28A0C /* SnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotView.swift; sourceTree = "<group>"; };
+		C0DF26A02AE0059C00C28A0C /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C0DF26A22AE00BD700C28A0C /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
+		C0DF26A42AE0112200C28A0C /* TooltipManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipManager.swift; sourceTree = "<group>"; };
+		C0DF26A62AE0118F00C28A0C /* TooltipDirection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipDirection.swift; sourceTree = "<group>"; };
+		C0DF26A82AE0148A00C28A0C /* TooltipView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TooltipView.xib; sourceTree = "<group>"; };
+		C0DF26AA2AE014A100C28A0C /* TooltipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TooltipView.swift; sourceTree = "<group>"; };
+		C0DF26AC2AE0189300C28A0C /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		C0DF26AE2AE018FC00C28A0C /* ViewControllerTooltip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTooltip.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 		C0DF26882ADFF9A200C28A0C /* CustomToolTipView */ = {
 			isa = PBXGroup;
 			children = (
+				C0DF269F2AE0057A00C28A0C /* Tooltip */,
 				C0DF26892ADFF9A200C28A0C /* AppDelegate.swift */,
 				C0DF268B2ADFF9A200C28A0C /* SceneDelegate.swift */,
 				C0DF268D2ADFF9A200C28A0C /* ViewController.swift */,
@@ -63,8 +82,24 @@
 				C0DF26922ADFF9A400C28A0C /* Assets.xcassets */,
 				C0DF26942ADFF9A400C28A0C /* LaunchScreen.storyboard */,
 				C0DF26972ADFF9A400C28A0C /* Info.plist */,
+				C0DF26AE2AE018FC00C28A0C /* ViewControllerTooltip.swift */,
 			);
 			path = CustomToolTipView;
+			sourceTree = "<group>";
+		};
+		C0DF269F2AE0057A00C28A0C /* Tooltip */ = {
+			isa = PBXGroup;
+			children = (
+				C0DF26A82AE0148A00C28A0C /* TooltipView.xib */,
+				C0DF26AA2AE014A100C28A0C /* TooltipView.swift */,
+				C0DF26A42AE0112200C28A0C /* TooltipManager.swift */,
+				C0DF26A62AE0118F00C28A0C /* TooltipDirection.swift */,
+				C0DF269D2AE0008700C28A0C /* SnapshotView.swift */,
+				C0DF26A02AE0059C00C28A0C /* UIView+Extension.swift */,
+				C0DF26A22AE00BD700C28A0C /* DarkView.swift */,
+				C0DF26AC2AE0189300C28A0C /* TriangleView.swift */,
+			);
+			path = Tooltip;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +162,7 @@
 			files = (
 				C0DF26962ADFF9A400C28A0C /* LaunchScreen.storyboard in Resources */,
 				C0DF26932ADFF9A400C28A0C /* Assets.xcassets in Resources */,
+				C0DF26A92AE0148A00C28A0C /* TooltipView.xib in Resources */,
 				C0DF26912ADFF9A200C28A0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0DF26AD2AE0189300C28A0C /* TriangleView.swift in Sources */,
 				C0DF268E2ADFF9A200C28A0C /* ViewController.swift in Sources */,
 				C0DF268A2ADFF9A200C28A0C /* AppDelegate.swift in Sources */,
+				C0DF26A32AE00BD800C28A0C /* DarkView.swift in Sources */,
+				C0DF26AF2AE018FC00C28A0C /* ViewControllerTooltip.swift in Sources */,
+				C0DF269E2AE0008800C28A0C /* SnapshotView.swift in Sources */,
+				C0DF26A12AE0059C00C28A0C /* UIView+Extension.swift in Sources */,
+				C0DF26A72AE0118F00C28A0C /* TooltipDirection.swift in Sources */,
+				C0DF26A52AE0112200C28A0C /* TooltipManager.swift in Sources */,
 				C0DF268C2ADFF9A200C28A0C /* SceneDelegate.swift in Sources */,
+				C0DF26AB2AE014A100C28A0C /* TooltipView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
